@@ -1,1 +1,1 @@
-# A note keeper app made using React
+# A note keeper app made using React JS
