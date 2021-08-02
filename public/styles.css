@@ -25,6 +25,10 @@ header h1 {
   font-weight: 200;
 }
 
+i {
+  font-size: 25px;
+}
+
 footer {
   position: absolute;
   text-align: center;
