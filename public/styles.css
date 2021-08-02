@@ -40,6 +40,15 @@ footer {
 footer p {
   color: #ccc;
 }
+
+footer a {
+  color: #000;
+}
+
+footer a:hover {
+  color: rgb(70, 69, 69);
+}
+
 .note {
   background: #fff;
   border-radius: 7px;
