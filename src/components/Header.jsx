@@ -5,7 +5,7 @@ function Header() {
   return (
     <header>
       <h1>
-        <HighlightIcon /> Keeper
+      <i class="fas fa-sticky-note"></i> Keeper
       </h1>
     </header>
   );
