@@ -85,7 +85,7 @@ footer a:hover {
 
 form.create-note {
   position: relative;
-  width: 480px;
+  width: 30%;
   margin: 30px auto 20px auto;
   background: #fff;
   padding: 15px;
@@ -115,4 +115,28 @@ form.create-note button {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   outline: none;
+}
+
+@media (max-width: 1400px) {
+  form.create-note {
+    width: 35%;
+  }
+}
+
+@media (max-width: 900px) {
+  form.create-note {
+    width: 40%;
+  }
+}
+
+@media (max-width: 700px) {
+  form.create-note {
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  form.create-note {
+    width: 90%;
+  }
 }
