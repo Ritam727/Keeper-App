@@ -15,6 +15,7 @@ function CreateArea(props) {
           props.onAdd({ title: title, content: content });
           setTitle("");
           setContent("");
+          setFocus(false);
           event.preventDefault();
         }}
       >
